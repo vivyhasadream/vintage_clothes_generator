@@ -8,3 +8,4 @@ __pycache__
 *.jpg
 openaccess/
 robe/
+BasicGAN_gen/
