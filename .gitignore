@@ -9,3 +9,5 @@ __pycache__
 openaccess/
 robe/
 BasicGAN_gen/
+styleGAN/
+checkpoints/
