@@ -11,3 +11,6 @@ robe/
 BasicGAN_gen/
 styleGAN/
 checkpoints/
+presentation docs/
+clean image/
+testing/
