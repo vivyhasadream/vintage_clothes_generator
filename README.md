@@ -14,35 +14,43 @@ or at least it could be for your entertainment to the eyes.
 
 
 ## DATA
+### WHY IMAGES FROM MUSEUMS?
 Fashion trend is a circle, I would like to train on the costume designes in the past, <br>
 and the museum is the best place to go.
 The costumes they collected are the most iconic ones in the era, <br>
-and with wide range of cultures.
+and with wide range of different cultures.
 
-Currently my model is trained on: <br>
-**MET museum**:<br>
-2544 images<br>
-The images used for this training belongs to Public Domain.<br>
-[MET API guideline](https://metmuseum.github.io/)
+Currently my model is trained on: 
+
+| Museum Name | MET | Victoria & Albert Museum | MFA Boston |
+| :--------: | :-------------: | :-------------: | :-------------: |
+| Location | New York | London | Boston |
+| Images Used | 2544  | 6588  | 996 |
+| Usage | Public Domain | non-commercial personal and educational purposes | Public Domain |
+
+### SOME MUSEUMS OFFERS API:
+
+API used:
+
+- [MET API guideline](https://metmuseum.github.io/)
+
+- [V&A API guideline](https://developers.vam.ac.uk/)
+
+   NOTE: ...under the terms and conditions as set out [here](https://www.vam.ac.uk/info/va-websites-terms-conditions) in particular section 9.<br>
 
 
-**Victoria & Albert museum**:<br>
-6588 images<br>
-under the terms and conditions as set out [here](https://www.vam.ac.uk/info/va-websites-terms-conditions) in particular section 9.<br>
-[V&A API guideline](https://developers.vam.ac.uk/)
 
 ## MODEL
 
-I used keras to build GAN for generation. <br>
-
-The baseline referred to this model:<br>
-[DCGAN to generate](https://keras.io/examples/generative/dcgan_overriding_train_step/)
+GAN is used for this image generation. <br>
  
 The models were tested with NVIDIA 3090 GPU.
 
 ## CURRENT RESULTS
-![image](https://user-images.githubusercontent.com/73181107/203331405-643657c9-6b13-405d-b705-d4d49655d342.png)
-![image](https://user-images.githubusercontent.com/73181107/203901004-b976b236-4939-495b-b437-f2d8fb6f0f41.png)
+
+<img src="https://user-images.githubusercontent.com/73181107/203331405-643657c9-6b13-405d-b705-d4d49655d342.png" width="500">
+<img src="https://user-images.githubusercontent.com/73181107/203901004-b976b236-4939-495b-b437-f2d8fb6f0f41.png" width="500">
+
 
 
 
