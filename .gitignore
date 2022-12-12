@@ -6,6 +6,8 @@ __pycache__
 *.csv
 *.pkl
 *.jpg
+
+# folders
 openaccess/
 robe/
 BasicGAN_gen/
